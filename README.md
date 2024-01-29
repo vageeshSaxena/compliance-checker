@@ -1,6 +1,5 @@
 # checkCompliance - Responsible Guidelines for Authorship Attribution Approaches in NLP
 
-# ResponsibleAA: Responsible Guidelines for Authorship Attribution Approaches in NLP
 Abstract: Authorship Attribution (AA) approaches in Natural Language Processing (NLP) are important in various domains.
 However, they pose ethical, legal, and societal (ELS) challenges that remain under-explored within the legal and
 NLP community. Our research presents a comprehensive framework of responsible guidelines for researchers and
