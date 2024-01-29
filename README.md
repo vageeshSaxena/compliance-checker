@@ -23,4 +23,4 @@ Please note that all the collected pdfs must be places under a folder called pdf
 
 # Analysis
 
-To generate the analysis, please run the generateStats.ipynb file. 
+To generate the analysis, please run the generateStats.ipynb file. For better understanding of the code, click [here](https://www.youtube.com/watch?v=oZFAxHjlB-4).
