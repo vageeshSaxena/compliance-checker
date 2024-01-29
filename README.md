@@ -15,8 +15,12 @@ development and deployment of AA tools for the benefit of society.
 In this GitHub repository, we provide Python code designed to automatically assess compliance with our established guidelines across a sample of 67 authorship attribution studies. The purpose is to verify adherence to the suggested guidelines within this specific set of studies.
 
 # Dataset
-To collect the dataset, we use the [RESP][https://github.com/monk1337/resp] project to download research papers from the first 4 pages of Arxiv. For reproducibility purposes, please use the following keywords:
+To collect the dataset, we use the [RESP](https://github.com/monk1337/resp) project to download research papers from the first 4 pages of Arxiv. For reproducibility purposes, please use the following keywords:
 
 ``` keywords = ['Authorship Attribution', 'Authorship Attribution Darknet', 'Authorship Attribution Dark Web', 'Authorship Attribution Cybercrime', 'Authorship Attribution Human Trafficking', 'Authorship Attribution Forensic Analysis'] ```
 
 Please note that all the collected pdfs must be places under a folder called pdf in the root directory.
+
+# Analysis
+
+To generate the analysis, please run the generateStats.ipynb file. 
