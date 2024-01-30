@@ -73,12 +73,24 @@ The guidelines presented stem from the four foundational concepts outlined in ou
 
 **3. Checking Compliances:** To assess compliance, we process both the queries and the literature documents using the "gpt-3.5-turbo-1106" model, specifically for its Q&A capabilities. For conducting this compliance check, you should run the [checkCompliance.ipynb](https://anonymous.4open.science/r/checkCompliance-E7CD/checkCompliance.ipynb) notebook. Prior to running the script, it's crucial to insert your OpenAI key in place of "ENTER-YOUR-OPEN-AI-KEY-HERE".
 
-The result to this analysis will generate a pandas dataframe as show below:
+The result to this analysis for privacy guidelines is demonstrated as a pandas dataframe below:
 
 <p align="center">
   <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliances.png">
 </p>
 
-# Analysis
+The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for compliance checking. The columns, Q-0 to Q-6, represents the established guidelines under the privacy and data protection aspects. To ensure clarity, it's important to define the responses "NA", "Yes", and "No" within the context of assessing research paper compliance with established responsible guidelines:
 
-To generate the analysis, please run the generateStats.ipynb file. For better understanding of the code, click [here](https://www.youtube.com/watch?v=oZFAxHjlB-4).
+1. "NAN" (Not Available): This response indicates that the information necessary to determine compliance is missing or not provided in the research paper.
+2. "Yes": This response signifies that the research paper adheres to and is compliant with the established responsible guidelines.
+3. "No": This response denotes that the research paper fails to meet or is not compliant with the established responsible guidelines.
+
+These responses are used to quickly identify the status of a research paper's adherence to required compliance standards.
+
+# Results
+
+To calculate the compliance score, we use the following formula:
+
+```Compliance Score = (Frequency of complied guidelines) / (Total number of guidelines * Total number of documents)```
+
+This formula considers the frequency of guideline compliance across all documents and guidelines.
