@@ -76,7 +76,7 @@ The guidelines presented stem from the four foundational concepts outlined in ou
 The result to this analysis for privacy guidelines is demonstrated as a pandas dataframe below:
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliances.png width=200 height=300">
+  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliances.png" width="800" height="500">
 </p>
 
 The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for compliance checking. The columns, Q-0 to Q-6, represents the established guidelines under the privacy and data protection aspects. To ensure clarity, it's important to define the responses "NA", "Yes", and "No" within the context of assessing research paper compliance with established responsible guidelines:
