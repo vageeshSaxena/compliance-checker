@@ -69,7 +69,9 @@ queries = {
 ]
 }
 ```
+The guidelines presented stem from the four foundational concepts outlined in our research paper. "Privacy" pertains to the principles of privacy and data protection, ensuring that individual rights are safeguarded. "Bias" addresses discrimination and unintended biases, highlighting the need for equitable and impartial AA applications. "Transparency" encompasses transparency and fairness, advocating for clear and open practices throughout the AA life cycle. Lastly, "risk" examines the societal impact, focusing on the broader implications of AA research and its applications on society. These guidelines are crafted to facilitate the identification and balancing of the benefits and potential ethical issues inherent in AA research, promoting the responsible use of AA tools.
 
+**Checking Compliances:**
 
 # Analysis
 
