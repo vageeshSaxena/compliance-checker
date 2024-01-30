@@ -81,7 +81,7 @@ The result to this analysis for privacy guidelines is demonstrated as a pandas d
 
 The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for compliance checking. The columns, Q-0 to Q-6, represents the established guidelines under the privacy and data protection aspects. To ensure clarity, it's important to define the responses "NA", "Yes", and "No" within the context of assessing research paper compliance with established responsible guidelines:
 
-1. "NAN" (Not Available): This response indicates that the information necessary to determine compliance is missing or not provided in the research paper.
+1. "NaN" (Not Available): This response indicates that the information necessary to determine compliance is missing or not provided in the research paper.
 2. "Yes": This response signifies that the research paper adheres to and is compliant with the established responsible guidelines.
 3. "No": This response denotes that the research paper fails to meet or is not compliant with the established responsible guidelines.
 
