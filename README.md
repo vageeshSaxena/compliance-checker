@@ -2,7 +2,7 @@
 
 **Abstract:** Authorship Attribution (AA) approaches in Natural Language Processing (NLP) are important in various domains. However, they pose ethical, legal, and societal (ELS) challenges that remain under-explored within the legal and NLP community. Our research presents a comprehensive framework of responsible guidelines for researchers and stakeholders (designers, developers, testers, and end-users), encompassing the three phases of the AA life cycle: design, development, and deployment. The framework comprises four key principles: privacy and data protection, transparency and fairness, discrimination and unintended biases, and societal impact. It allows stakeholders to identify potential issues and to weigh the benefits of AA research against privacy, transparency, discrimination, and bias in AA applications, thereby mitigating potential risks and harm for the greater good of society. These guidelines enable researchers and practitioners to justify their decisions and assist ethical committees in promoting responsible practices and identifying ethical concerns related to NLP-based AA approaches, ultimately ensuring the responsible development and deployment of AA tools for the benefit of society.
 
-**complianceChecker:** ComplianceChecker is a tool that utilizes chatGPT and LangChain for conducting Q&A analyses on documents from the Authorship Attribution literature. Its primary function is to cross-check whether these documents comply with the responsible guidelines we have established in our research. The tool is designed to automatically evaluate adherence to our guidelines across a selected sample of studies (67 in our case) in the field of Authorship Attribution. The aim is to systematically assess and verify how these studies conform to the suggested responsible practices.
+**complianceChecker:** ComplianceChecker is a tool that utilizes gpt-3.5 and LangChain for conducting Q&A analyses on documents from the Authorship Attribution literature. Its primary function is to cross-check whether these documents comply with the responsible guidelines we have established in our research. The tool is designed to automatically evaluate adherence to our guidelines across a selected sample of studies (67 in our case) in the field of Authorship Attribution. The aim is to systematically assess and verify how these studies conform to the suggested responsible practices.
 
 # Setup
 This repository is tested on Python 3.10 and [conda](https://docs.conda.io/projects/miniconda/en/latest/). First, you should install a virtual environment:
@@ -94,3 +94,7 @@ To calculate the compliance score, we use the following formula:
 ```Compliance Score = (Frequency of complied guidelines) / (Total number of guidelines * Total number of documents)```
 
 This formula considers the frequency of guideline compliance across all documents and guidelines.
+
+# Disclaimer
+
+We recognize that employing gpt-3.5 models for compliance checking might produce some inaccurate results. Due to time constraints, manual verification of all model predictions wasn't feasible. While our current methodology doesn't ensure absolute accuracy, enhancing this aspect is a key focus for future improvements. As a precautionary measure, we deactivate the hallucination parameter during the compliance analysis to improve reliability.
