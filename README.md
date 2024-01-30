@@ -21,13 +21,13 @@ pip install -r requirements.txt
 ```
 
 # Methodology
-**Literature Collection:** We employ the [RESP](https://github.com/monk1337/resp) project for downloading research papers. Specifically, we retrieve papers from the first four pages of Arxiv. It's important to note that all downloaded PDFs should be stored in a folder named "pdfs" located in the root directory. For consistency and reproducibility, we recommend using specific keywords in the search process:
+**1. Literature Collection:** We employ the [RESP](https://github.com/monk1337/resp) project for downloading research papers. Specifically, we retrieve papers from the first four pages of Arxiv. It's important to note that all downloaded PDFs should be stored in a folder named "pdfs" located in the root directory. For consistency and reproducibility, we recommend using specific keywords in the search process:
 
 ``` keywords = ['Authorship Attribution', 'Authorship Attribution Darknet', 'Authorship Attribution Dark Web', 'Authorship Attribution Cybercrime', 'Authorship Attribution Human Trafficking', 'Authorship Attribution Forensic Analysis'] ```
 
 In our analysis, we collected 67 literature studies from the abovementioned list of keywords. 
 
-**Generating Queries:** Our approach for query generation involves taking the guidelines from our research and modifying each. To each guideline under every category, we append the phrase "If the relevant details are not available, just say Info not available. Otherwise answer it as yes or no." 
+**2. Generating Queries:** Our approach for query generation involves taking the guidelines from our research and modifying each. To each guideline under every category, we append the phrase "If the relevant details are not available, just say Info not available. Otherwise answer it as yes or no." 
 
 ```
 queries = {
@@ -71,7 +71,8 @@ queries = {
 ```
 The guidelines presented stem from the four foundational concepts outlined in our research paper. "Privacy" pertains to the principles of privacy and data protection, ensuring that individual rights are safeguarded. "Bias" addresses discrimination and unintended biases, highlighting the need for equitable and impartial AA applications. "Transparency" encompasses transparency and fairness, advocating for clear and open practices throughout the AA life cycle. Lastly, "risk" examines the societal impact, focusing on the broader implications of AA research and its applications on society. These guidelines are crafted to facilitate the identification and balancing of the benefits and potential ethical issues inherent in AA research, promoting the responsible use of AA tools.
 
-**Checking Compliances:**
+**3. Checking Compliances:** **3. Checking Compliances:** To assess compliance, we process both the queries and the literature documents using the "gpt-3.5-turbo-1106" model, specifically for its Q&A capabilities. For conducting this compliance check, you should run the [checkCompliance.ipynb](https://github.com/vageeshSaxena/complianceChecker/blob/main/checkCompliance.ipynb) notebook. Prior to running the script, it's crucial to insert your OpenAI key in place of "ENTER-YOUR-OPEN-AI-KEY-HERE".
+
 
 # Analysis
 
