@@ -21,15 +21,16 @@ pip install -r requirements.txt
 ```
 
 # Methodology
-**Literature Collection:** To collect the literature, we use the [RESP](https://github.com/monk1337/resp) project to download research papers from the first 4 pages of Arxiv. Please note that all the collected pdfs must be places under a folder called "pdfs" in the root directory. For reproducibility purposes, we suggest using the following keywords:
+**Literature Collection:** We employ the [RESP](https://github.com/monk1337/resp) project for downloading research papers. Specifically, we retrieve papers from the first four pages of Arxiv. It's important to note that all downloaded PDFs should be stored in a folder named "pdfs" located in the root directory. For consistency and reproducibility, we recommend using specific keywords in the search process:
 
 ``` keywords = ['Authorship Attribution', 'Authorship Attribution Darknet', 'Authorship Attribution Dark Web', 'Authorship Attribution Cybercrime', 'Authorship Attribution Human Trafficking', 'Authorship Attribution Forensic Analysis'] ```
 
 In our analysis, we collected 67 literature studies from the abovementioned list of keywords. 
 
-**Generating Queries:** To generate the queries, we took the guidelines from our research and appended "If the relevant details are not available, just say Info not available. Otherwise answer it as yes or no. " to each guideline under each category.
+**Generating Queries:** Our approach for query generation involves taking the guidelines from our research and modifying each. To each guideline under every category, we append the phrase "If the relevant details are not available, just say Info not available. Otherwise answer it as yes or no." 
 
-``` queries = {
+```
+queries = {
     "privacy" :  [
     "Does the Authorship Atttribution research/application involve a high level of risk, necessitating a Data Protection Impact Assessment (DPIA)? High-risk scenarios may include biometric identification, law enforcement, or justice system usage. If the relevant details are not available, just say Info not available. Otherwise answer it as yes or no. ",
     "Does the Authorship Atttribution processing encompass extensive automated processing leading to decisions with legal or significant effects on individuals? Are measures in place to prevent identity disclosure, reputational damage, or legal consequences? If the relevant details are not available, just say Info not available. Otherwise answer it as yes or no. ",
@@ -68,6 +69,7 @@ In our analysis, we collected 67 literature studies from the abovementioned list
 ]
 }
 ```
+
 
 # Analysis
 
