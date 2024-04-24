@@ -23,7 +23,7 @@ pip install -r requirements.txt
 # Methodology
 **1. Literature Collection:** We employ the [RESP](https://github.com/monk1337/resp) project for downloading research papers. Specifically, we retrieve papers from the first four pages of Arxiv. It's important to note that all downloaded PDFs should be stored in a folder named "pdfs" located in the root directory. For consistency and reproducibility, we recommend using specific keywords in the search process:
 
-``` keywords = ['Authorship Attribution', 'Authorship Attribution Darknet', 'Authorship Attribution Dark Web', 'Authorship Attribution Cybercrime', 'Authorship Attribution Human Trafficking', 'Authorship Attribution Forensic Analysis'] ```
+``` keywords = ['Authorship Attribution', 'Authorship Identificaiton', 'Authorship Verification', 'Authorship Analysis', 'Authorship Attribution Darknet', 'Authorship Attribution Dark Web', 'Authorship Attribution Cybercrime', 'Authorship Attribution Human Trafficking', 'Authorship Attribution Forensic Analysis'] ```
 
 In our analysis, we collected 67 literature studies from the abovementioned list of keywords. 
 
