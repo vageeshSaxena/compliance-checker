@@ -1,0 +1,12 @@
+Study,DOC-ID,DB-1,DB-2,DB-3,DB-4,DB-5,DB-6,DB-7,DB-8,DB-9
+Enhancing Representation Generalization in Authorship Identification,DOC-1,Yes,Yes,NA,Yes,Yes,NA,Yes,NA,NA
+Integrating Bidirectional Long Short-Term Memory with Subword Embedding for Authorship Attribution,DOC-2,Yes,Yes,NA,Yes,Yes,NA,Yes,NA,NA
+HANSEN: human and AI spoken text benchmark for authorship analysis,DOC-12,Yes,Yes,NA,Yes,Yes,NA,NA,NA,NA
+Detection of news written by the ChatGPT through authorship attribution performed by a Bidirectional LSTM model,DOC-17,Yes,Yes,NA,Yes,Yes,NA,NA,NA,NA
+"Attribution and Obfuscation of Neural Text Authorship:
+A Data Mining Perspective",DOC-22,Yes,Yes,NA,Yes,Yes,NA,Yes,NA,NA
+Understanding writing style in social media with a supervised contrastively pre-trained transformer,DOC-31,Yes,Yes,NA,Yes,Yes,NA,Yes,NA,NA
+Can Authorship Representation Learning Capture Stylistic Features?,DOC-35,Yes,NA,NA,NA,Yes,Yes,Yes,NA,NA
+VeriDark: A Large-Scale Benchmark for Authorship Verification on the Dark Web,DOC-41,Yes,Yes,NA,NA,Yes,NA,Yes,NA,NA
+Writer identification using microblogging texts for social media forensics,DOC-53,Yes,No,NA,NA, Yes,Yes,Yes,Yes,NA
+UID as a Guiding Metric for Automated Authorship Obfuscation,DOC-64,Yes,Yes,NA,NA,Yes,Yes,Yes,Yes,NA
