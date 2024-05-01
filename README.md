@@ -90,7 +90,7 @@ These responses are used to quickly identify the status of a research paper's ad
 To generate the compliancy plot for each document and all the guidelines, please run [plot_results.ipnb](https://anonymous.4open.science/r/checkCompliance-E7CD/plot_results.ipynb). 
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliancy_results.png" width="600" height="500">
+  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliancy_results.png" width="800" height="400">
 </p>
 
 
