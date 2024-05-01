@@ -85,7 +85,14 @@ The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for 
 2. "Yes": This response signifies that the research paper adheres to and is compliant with the established responsible guidelines.
 3. "No": This response denotes that the research paper fails to meet or is not compliant with the established responsible guidelines.
 
-To generate the compliancy plot, please run [plot_results.ipnb](https://anonymous.4open.science/r/checkCompliance-E7CD/plot_results.ipynb). These responses are used to quickly identify the status of a research paper's adherence to required compliance standards.
+These responses are used to quickly identify the status of a research paper's adherence to required compliance standards.
+
+To generate the compliancy plot for each document and all the guidelines, please run [plot_results.ipnb](https://anonymous.4open.science/r/checkCompliance-E7CD/plot_results.ipynb). 
+
+<p align="center">
+  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliances.png" width="400" height="500">
+</p>
+
 
 # Results
 
