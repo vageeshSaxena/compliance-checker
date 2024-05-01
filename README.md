@@ -71,12 +71,12 @@ queries = {
 ```
 The guidelines presented stem from the four foundational concepts outlined in our research paper. "Privacy" pertains to the principles of privacy and data protection, ensuring that individual rights are safeguarded. "Bias" addresses discrimination and unintended biases, highlighting the need for equitable and impartial AA applications. "Transparency" encompasses transparency and fairness, advocating for clear and open practices throughout the AA life cycle. Lastly, "risk" examines the societal impact, focusing on the broader implications of AA research and its applications on society. These guidelines are crafted to facilitate the identification and balancing of the benefits and potential ethical issues inherent in AA research, promoting the responsible use of AA tools.
 
-**3. Checking Compliances:** To assess compliance, we process both the queries and the literature documents using the "gpt-3.5-turbo-1106" model, specifically for its Q&A capabilities. For conducting this compliance check, you should run the [checkCompliance.ipynb](https://github.com/vageeshSaxena/complianceChecker/blob/main/checkCompliance.ipynb) notebook. Prior to running the script, it's crucial to insert your OpenAI key in place of "ENTER-YOUR-OPEN-AI-KEY-HERE".
+**3. Checking Compliances:** To assess compliance, we process both the queries and the literature documents using the "gpt-3.5-turbo-1106" model, specifically for its Q&A capabilities. For conducting this compliance check, you should run the [checkCompliance.ipynb](https://anonymous.4open.science/r/checkCompliance-E7CD/checkCompliance.ipynb) notebook. Prior to running the script, it's crucial to insert your OpenAI key in place of "ENTER-YOUR-OPEN-AI-KEY-HERE".
 
 The result to this analysis for privacy guidelines is demonstrated as a pandas dataframe below:
 
 <p align="center">
-  <img src="https://github.com/vageeshSaxena/complianceChecker/blob/main/Images/compliances.png" width="400" height="500">
+  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliances.png" width="400" height="500">
 </p>
 
 The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for compliance checking. The columns, Q-0 to Q-6, represents the 7 established guidelines under the privacy and data protection aspects. To ensure clarity, it's important to define the responses "NA", "Yes", and "No" within the context of assessing research paper compliance with established responsible guidelines:
@@ -85,7 +85,7 @@ The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for 
 2. "Yes": This response signifies that the research paper adheres to and is compliant with the established responsible guidelines.
 3. "No": This response denotes that the research paper fails to meet or is not compliant with the established responsible guidelines.
 
-These responses are used to quickly identify the status of a research paper's adherence to required compliance standards.
+To generate the compliancy plot, please run [plot_results.ipnb](https://anonymous.4open.science/r/checkCompliance-E7CD/plot_results.ipynb). These responses are used to quickly identify the status of a research paper's adherence to required compliance standards.
 
 # Results
 
@@ -94,6 +94,10 @@ To calculate the compliance score, we use the following formula:
 ```Compliance Score = (Frequency of complied guidelines) / (Total number of guidelines * Total number of documents)```
 
 This formula considers the frequency of guideline compliance across all documents and guidelines.
+
+# Manual Verification
+
+The results related to manual investigation of 10 AA research can be found in [gold_privacy.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_privacy.csv), [gold_biases.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_biases.csv), [gold_transparency.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_transparency.csv), [gold_risk.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_risk.csv) files. 
 
 # Disclaimer
 
