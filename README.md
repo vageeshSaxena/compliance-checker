@@ -71,7 +71,7 @@ queries = {
 ```
 The guidelines presented stem from the four foundational concepts outlined in our research paper. "Privacy" pertains to the principles of privacy and data protection, ensuring that individual rights are safeguarded. "Bias" addresses discrimination and unintended biases, highlighting the need for equitable and impartial AA applications. "Transparency" encompasses transparency and fairness, advocating for clear and open practices throughout the AA life cycle. Lastly, "risk" examines the societal impact, focusing on the broader implications of AA research and its applications on society. These guidelines are crafted to facilitate the identification and balancing of the benefits and potential ethical issues inherent in AA research, promoting the responsible use of AA tools.
 
-**3. Checking Compliances:** To assess compliance, we process both the queries and the literature documents using the "gpt-3.5-turbo-1106" model, specifically for its Q&A capabilities. For conducting this compliance check, you should run the [checkCompliance.ipynb](https://anonymous.4open.science/r/checkCompliance-E7CD/checkCompliance.ipynb) notebook. Prior to running the script, it's crucial to insert your OpenAI key in place of "ENTER-YOUR-OPEN-AI-KEY-HERE".
+**3. Checking Compliances:** To assess compliance, we process both the queries and the literature documents using the "gpt-3.5-turbo-1106" model, specifically for its Q&A capabilities. For conducting this compliance check, you should run the [checkCompliance.ipynb](https://github.com/vageeshSaxena/compliance-checker/blob/main/checkCompliance.ipynb) notebook. Prior to running the script, it's crucial to insert your OpenAI key in place of "ENTER-YOUR-OPEN-AI-KEY-HERE".
 
 The result to this analysis for privacy guidelines is demonstrated as a pandas dataframe below:
 
@@ -87,7 +87,7 @@ The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for 
 
 These responses are used to quickly identify the status of a research paper's adherence to required compliance standards.
 
-To generate the compliancy plot for each document and all the guidelines, please run [plot_results.ipnb](https://anonymous.4open.science/r/checkCompliance-E7CD/plot_results.ipynb). 
+To generate the compliancy plot for each document and all the guidelines, please run [plot_results.ipnb](https://github.com/vageeshSaxena/compliance-checker/blob/main/plot_results.ipynb). 
 
 <p align="center">
   <img src="Images/compliancy_results.png" width="800" height="400">
@@ -104,7 +104,7 @@ This formula considers the frequency of guideline compliance across all document
 
 # Manual Verification
 
-The results related to manual investigation of 10 AA research can be found in [gold_privacy.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_privacy.csv), [gold_biases.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_biases.csv), [gold_transparency.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_transparency.csv), [gold_risk.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_risk.csv) files. After comparing the results from this manual verification confirmed the accuracy of gpt-3.5-turbo-1106 model to be around 63.35\%. A deeper breakdown of the analysis for every guideline is reported below:
+The results related to manual investigation of 10 AA research can be found in [gold_privacy.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_privacy.csv), [gold_biases.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_biases.csv), [gold_transparency.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_transparency.csv), [gold_risk.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_risk.csv) files. After comparing the results from this manual verification confirmed the accuracy of gpt-3.5-turbo-1106 model to be around 63.35\%. A deeper breakdown of the analysis for every guideline is reported below:
 
 <p align="center">
   <img src="Images/accuracy.png" width="600" height="300">
