@@ -76,7 +76,7 @@ The guidelines presented stem from the four foundational concepts outlined in ou
 The result to this analysis for privacy guidelines is demonstrated as a pandas dataframe below:
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliances.png" width="400" height="500">
+  <img src="Images/compliances.png" width="400" height="500">
 </p>
 
 The rows, DOC-0 to DOC-66, represents the 67 literature documents extracted for compliance checking. The columns, Q-0 to Q-6, represents the 7 established guidelines under the privacy and data protection aspects. To ensure clarity, it's important to define the responses "NA", "Yes", and "No" within the context of assessing research paper compliance with established responsible guidelines:
@@ -90,7 +90,7 @@ These responses are used to quickly identify the status of a research paper's ad
 To generate the compliancy plot for each document and all the guidelines, please run [plot_results.ipnb](https://anonymous.4open.science/r/checkCompliance-E7CD/plot_results.ipynb). 
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/compliancy_results.png" width="800" height="400">
+  <img src="Images/compliancy_results.png" width="800" height="400">
 </p>
 
 
@@ -107,7 +107,7 @@ This formula considers the frequency of guideline compliance across all document
 The results related to manual investigation of 10 AA research can be found in [gold_privacy.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_privacy.csv), [gold_biases.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_biases.csv), [gold_transparency.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_transparency.csv), [gold_risk.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_risk.csv) files. After comparing the results from this manual verification confirmed the accuracy of gpt-3.5-turbo-1106 model to be around 63.35\%. A deeper breakdown of the analysis for every guideline is reported below:
 
 <p align="center">
-  <img src="https://anonymous.4open.science/r/checkCompliance-E7CD/Images/accuracy.png" width="600" height="300">
+  <img src="Images/accuracy.png" width="600" height="300">
 </p>
 
 # Disclaimer
