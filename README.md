@@ -104,7 +104,7 @@ This formula considers the frequency of guideline compliance across all document
 
 # Manual Verification
 
-The results related to manual investigation of 10 AA research can be found in [gold_privacy.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_privacy.csv), [gold_biases.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_biases.csv), [gold_transparency.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_transparency.csv), [gold_risk.csv](https://anonymous.4open.science/r/checkCompliance-E7CD/data/gold_risk.csv) files. After comparing the results from this manual verification confirmed the accuracy of gpt-3.5-turbo-1106 model to be around 63.35\%. A deeper breakdown of the analysis for every guideline is reported below:
+The results related to manual investigation of 10 AA research can be found in [gold_privacy.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_privacy.csv), [gold_biases.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_biases.csv), [gold_transparency.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_transparency.csv), [gold_risk.csv](https://github.com/vageeshSaxena/compliance-checker/tree/main/data/gold_risk.csv) files. After comparing the results from this manual verification confirmed the accuracy of gpt-3.5-turbo-1106 model to be around 63.35\%. A deeper breakdown of the analysis for every guideline is reported below:
 
 <p align="center">
   <img src="Images/accuracy.png" width="600" height="300">
